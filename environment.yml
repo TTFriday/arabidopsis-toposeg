@@ -1,0 +1,23 @@
+name: toposeg
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10.22
+  - pytorch=2.5.1
+  - torchvision=0.20.1
+  - pytorch-cuda=12.1
+  - numpy
+  - pandas
+  - pillow
+  - scipy
+  - scikit-image
+  - pyyaml
+  - tensorboard
+  - matplotlib
+  - statsmodels
+  - pytest
+  - pip
+  - pip:
+      - -e .

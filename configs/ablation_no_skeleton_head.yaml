@@ -1,0 +1,6 @@
+_base_: full.yaml
+experiment: ablation_no_skeleton_head
+model:
+  skeleton_head: false
+loss:
+  auxiliary_weight: 0.0

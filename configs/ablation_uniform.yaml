@@ -1,0 +1,4 @@
+_base_: full.yaml
+experiment: ablation_uniform
+loss:
+  organ_weights: uniform

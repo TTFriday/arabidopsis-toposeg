@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toposeg"
+version = "1.0.0"
+description = "Topology-aware Arabidopsis seedling segmentation"
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+  "torch>=2.5,<2.6",
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "Pillow>=10",
+  "scipy>=1.11",
+  "scikit-image>=0.22",
+  "PyYAML>=6",
+  "tensorboard>=2.15",
+  "matplotlib>=3.8",
+  "statsmodels>=0.14",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

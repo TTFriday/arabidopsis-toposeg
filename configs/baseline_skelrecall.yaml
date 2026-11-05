@@ -1,0 +1,8 @@
+_base_: base.yaml
+experiment: baseline_skelrecall
+model:
+  skeleton_head: false
+loss:
+  organ_weights: root_only
+  topology_form: skeleton_recall
+  auxiliary_weight: 0.0

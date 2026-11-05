@@ -1,0 +1,38 @@
+project: toposeg
+data:
+  # Manifests store paths relative to TOPOSEG_DATA_ROOT (see data/README.md).
+  split_csv: manifests/splits/main.csv
+  patch_size: 512
+  sampling: mixed
+  workers: 2
+  batch_size: 2
+  augment: true
+model:
+  base_channels: 24
+  skeleton_head: true
+loss:
+  region_ce_weight: 0.5
+  region_dice_weight: 0.5
+  topology_weight: 0.20
+  auxiliary_weight: 0.10
+  joint_root_weight: 0.3
+  organ_weights: adaptive
+  topology_ramp_start: 0.10
+  topology_ramp_end: 0.25
+  skeleton_iterations: 10
+  boundary: 32
+training:
+  optimizer: AdamW
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+  max_steps: 2000
+  final_steps: 30000
+  warmup_steps: 1000
+  epochs: 9999
+  patience: 20
+  amp: true
+  grad_clip: 1.0
+inference:
+  patch_size: 512
+  overlap: 0.5
+seeds: [17, 29, 43]

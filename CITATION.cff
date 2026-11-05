@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "arabidopsis-toposeg: topology-aware Arabidopsis seedling segmentation under an event-grouped protocol"
+abstract: "Audit, split construction, training and evaluation pipeline for topology-aware Arabidopsis seedling segmentation on the ChronoRoot 2.0 release, with a frozen acquisition-event-grouped benchmark."
+version: 1.0.0
+date-released: "2026-10-31"
+license: MIT
+repository-code: "https://github.com/TTFriday/arabidopsis-toposeg"
+keywords:
+  - Arabidopsis thaliana
+  - root system architecture
+  - semantic segmentation
+  - topology-preserving loss
+  - clDice
+  - benchmark leakage
+authors:
+  - family-names: Tu
+    given-names: Lifen
+    orcid: "https://orcid.org/0000-0002-5774-8138"
+    email: iteachtu@hbeu.edu.cn
+    affiliation: "School of Physics and Electronic Information Engineering, Hubei Engineering University, Xiaogan, Hubei, China"
+  - family-names: Peng
+    given-names: Qi
+    orcid: "https://orcid.org/0000-0002-5693-0480"
+    email: petersky0316@hbeu.edu.cn
+    affiliation: "School of Physics and Electronic Information Engineering, Hubei Engineering University, Xiaogan, Hubei, China"

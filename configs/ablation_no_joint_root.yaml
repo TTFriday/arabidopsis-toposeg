@@ -1,0 +1,4 @@
+_base_: full.yaml
+experiment: ablation_no_joint_root
+loss:
+  joint_root_weight: 0.0

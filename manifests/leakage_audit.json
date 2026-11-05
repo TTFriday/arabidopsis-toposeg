@@ -1,0 +1,14 @@
+{
+  "unique_images": 957,
+  "mapped_images": 911,
+  "distributed_test_images": 156,
+  "distributed_test_images_identical_to_training_directory": 156,
+  "acquisition_events_total": 47,
+  "events_crossing_distributed_train_val_test": 29,
+  "images_in_crossing_events": 579,
+  "images_in_crossing_events_share": 0.6356,
+  "adjacent_frame_pairs_measured": 743,
+  "adjacent_frame_correlation_median": 0.9992,
+  "adjacent_frame_correlation_p90": 0.9997,
+  "adjacent_frame_correlation_csv": "adjacent_frame_correlation.csv"
+}

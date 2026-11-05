@@ -1,0 +1,7 @@
+_base_: base.yaml
+experiment: baseline_cldice
+model:
+  skeleton_head: false
+loss:
+  organ_weights: root_only
+  auxiliary_weight: 0.0
