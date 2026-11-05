@@ -1,0 +1,15 @@
+{
+  "device": "cpu",
+  "cpu_name": "12th Gen Intel(R) Core(TM) i5-12490F",
+  "logical_processors": 12,
+  "torch_threads": 6,
+  "ram_total_gb": 15.8,
+  "ram_available_gb_at_start": 7.7,
+  "os": "Windows 10 (AMD64)",
+  "python": "3.10.22",
+  "torch": "2.5.1+cu121",
+  "cuda_available": true,
+  "patch_size": 512,
+  "image_h_w": "2464,3280",
+  "overlap": 0.5
+}

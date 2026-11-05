@@ -1,0 +1,73 @@
+=== baseline_region seed 17 nominal  2026/10/20 9:50:27.14
+outputs\baseline_region\seed_17\evaluation_nominal
+=== baseline_region seed 29 nominal  2026/10/20 10:07:23.70
+outputs\baseline_region\seed_29\evaluation_nominal
+=== baseline_region seed 43 nominal  2026/10/20 10:24:06.78
+outputs\baseline_region\seed_43\evaluation_nominal
+=== baseline_cldice seed 17 nominal  2026/10/20 10:40:56.29
+outputs\baseline_cldice\seed_17\evaluation_nominal
+=== baseline_cldice seed 29 nominal  2026/10/20 10:57:41.98
+outputs\baseline_cldice\seed_29\evaluation_nominal
+=== baseline_cldice seed 43 nominal  2026/10/20 11:14:32.24
+outputs\baseline_cldice\seed_43\evaluation_nominal
+=== full seed 17 nominal  2026/10/20 11:30:54.04
+outputs\full\seed_17\evaluation_nominal
+=== full seed 29 nominal  2026/10/20 11:47:22.05
+outputs\full\seed_29\evaluation_nominal
+=== full seed 43 nominal  2026/10/20 12:03:58.31
+outputs\full\seed_43\evaluation_nominal
+=== ablation_uniform seed 17 nominal  2026/10/20 12:20:25.42
+outputs\ablation_uniform\seed_17\evaluation_nominal
+=== ablation_uniform seed 29 nominal  2026/10/20 12:36:53.96
+outputs\ablation_uniform\seed_29\evaluation_nominal
+=== ablation_uniform seed 43 nominal  2026/10/20 12:53:21.15
+outputs\ablation_uniform\seed_43\evaluation_nominal
+=== ablation_no_joint_root seed 17 nominal  2026/10/20 13:09:53.86
+outputs\ablation_no_joint_root\seed_17\evaluation_nominal
+=== ablation_no_joint_root seed 29 nominal  2026/10/20 13:26:22.70
+outputs\ablation_no_joint_root\seed_29\evaluation_nominal
+=== ablation_no_joint_root seed 43 nominal  2026/10/20 13:43:09.60
+outputs\ablation_no_joint_root\seed_43\evaluation_nominal
+=== ablation_no_skeleton_head seed 17 nominal  2026/10/20 13:59:35.91
+outputs\ablation_no_skeleton_head\seed_17\evaluation_nominal
+=== ablation_no_skeleton_head seed 29 nominal  2026/10/20 14:15:53.29
+outputs\ablation_no_skeleton_head\seed_29\evaluation_nominal
+=== ablation_no_skeleton_head seed 43 nominal  2026/10/20 14:32:11.48
+outputs\ablation_no_skeleton_head\seed_43\evaluation_nominal
+=== baseline_region seed 17 ood  2026/10/20 14:48:26.10
+outputs\baseline_region\seed_17\evaluation_ood
+=== baseline_region seed 29 ood  2026/10/20 14:54:30.28
+outputs\baseline_region\seed_29\evaluation_ood
+=== baseline_region seed 43 ood  2026/10/20 15:00:22.09
+outputs\baseline_region\seed_43\evaluation_ood
+=== baseline_cldice seed 17 ood  2026/10/20 15:06:12.46
+outputs\baseline_cldice\seed_17\evaluation_ood
+=== baseline_cldice seed 29 ood  2026/10/20 15:12:01.69
+outputs\baseline_cldice\seed_29\evaluation_ood
+=== baseline_cldice seed 43 ood  2026/10/20 15:17:52.58
+outputs\baseline_cldice\seed_43\evaluation_ood
+=== full seed 17 ood  2026/10/20 15:23:37.63
+outputs\full\seed_17\evaluation_ood
+=== full seed 29 ood  2026/10/20 15:29:35.29
+outputs\full\seed_29\evaluation_ood
+=== full seed 43 ood  2026/10/20 15:35:35.24
+outputs\full\seed_43\evaluation_ood
+=== ablation_uniform seed 17 ood  2026/10/20 15:41:27.29
+outputs\ablation_uniform\seed_17\evaluation_ood
+=== ablation_uniform seed 29 ood  2026/10/20 15:47:22.16
+outputs\ablation_uniform\seed_29\evaluation_ood
+=== ablation_uniform seed 43 ood  2026/10/20 15:53:14.18
+outputs\ablation_uniform\seed_43\evaluation_ood
+=== ablation_no_joint_root seed 17 ood  2026/10/20 15:59:08.18
+outputs\ablation_no_joint_root\seed_17\evaluation_ood
+=== ablation_no_joint_root seed 29 ood  2026/10/20 16:05:05.81
+outputs\ablation_no_joint_root\seed_29\evaluation_ood
+=== ablation_no_joint_root seed 43 ood  2026/10/20 16:11:15.11
+outputs\ablation_no_joint_root\seed_43\evaluation_ood
+=== ablation_no_skeleton_head seed 17 ood  2026/10/20 16:17:07.04
+outputs\ablation_no_skeleton_head\seed_17\evaluation_ood
+=== ablation_no_skeleton_head seed 29 ood  2026/10/20 16:23:30.33
+outputs\ablation_no_skeleton_head\seed_29\evaluation_ood
+=== ablation_no_skeleton_head seed 43 ood  2026/10/20 16:29:23.00
+outputs\ablation_no_skeleton_head\seed_43\evaluation_ood
+protocol evaluations finished 2026/10/20 16:35:12.31

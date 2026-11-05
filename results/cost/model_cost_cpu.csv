@@ -1,0 +1,8 @@
+configuration,device,architecture,parameters,macs_per_patch_512,weights_file_mb,cpu_ms_per_patch_median,cpu_ms_per_patch_min,cpu_ms_per_patch_max,patch_reps,warmup_reps,patches_per_image,frame_reps,cpu_s_per_image_median,cpu_s_per_image_min,cpu_s_per_image_max
+full,cpu,dual-head,3310611,26071793664,12.6,257.0,239.2,281.7,30,3,108,5,28.69,28.51,28.77
+baseline_region,cpu,region-only head,3310511,26046627840,12.6,251.4,226.1,273.5,30,3,108,5,28.33,28.25,28.53
+baseline_cldice,cpu,region-only head,3310511,26046627840,12.6,254.4,232.8,271.8,30,3,108,5,28.47,28.42,28.67
+baseline_skelrecall,cpu,region-only head,3310511,26046627840,12.6,257.0,233.0,265.2,30,3,108,5,28.41,28.35,28.5
+ablation_uniform,cpu,dual-head,3310611,26071793664,12.6,260.2,237.4,270.7,30,3,108,5,28.71,28.64,28.84
+ablation_no_joint_root,cpu,dual-head,3310611,26071793664,12.6,259.2,225.7,272.2,30,3,108,5,28.74,28.72,28.82
+ablation_no_skeleton_head,cpu,region-only head,3310511,26046627840,12.6,259.5,238.7,266.5,30,3,108,5,28.36,28.24,28.41
